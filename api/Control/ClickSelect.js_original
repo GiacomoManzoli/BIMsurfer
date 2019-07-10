@@ -1,5 +1,5 @@
 "use strict"
-
+// commit https://github.com/GiacomoManzoli/BIMsurfer/commit/92005dbb47a9d1f47823ed8149a904745b88a78d
 /**
  * Class: BIMSURFER.Control.ClickSelect
  * Control to select and hightlight a Scene JS by clicking on it.

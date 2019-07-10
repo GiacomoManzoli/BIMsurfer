@@ -422,7 +422,8 @@ function GeometryLoader(bimServerApi, models, viewer, type) {
 			return false;
 		}
 		var version = data.readByte();
-		if (version != 17) {
+		if (version != 17 && version != 19) { // Ho aggiunto la versione 19 (come ha fatto Ruben)
+			// https://github.com/opensourceBIM/BIMsurfer-before2019/commit/48b7facb70673956cc72bc11c51d12672fc95fe5
 			console.log("Unimplemented version");
 			return false;
 		} else {
